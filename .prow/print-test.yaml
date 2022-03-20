@@ -3,9 +3,7 @@ postsubmits:
   - name: test-postsubmit
     cluster: prow-service
     decorate: true
-    annotations:
-      testgrid-dashboards: andy-prow
-      testgrid-tab-name: Testing Prow
+    always_run: true
     spec:
       containers:
       - image: alpine
