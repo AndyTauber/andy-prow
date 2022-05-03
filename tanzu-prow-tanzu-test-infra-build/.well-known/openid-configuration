@@ -1,6 +1,6 @@
 {
-    "issuer": "https://github.com/andytauber/andy-prow/tanzu-prow-tanzu-test-infra-build",
-    "jwks_uri": "https://github.com/andytauber/andy-prow/tanzu-prow-tanzu-test-infra-build/keys.json",
+    "issuer": "https://github.com/AndyTauber/andy-prow/blob/main/tanzu-prow-tanzu-test-infra-build",
+    "jwks_uri": "https://github.com/AndyTauber/andy-prow/blob/main/tanzu-prow-tanzu-test-infra-build/keys.json",
     "authorization_endpoint": "urn:kubernetes:programmatic_authorization",
     "response_types_supported": [
         "id_token"
